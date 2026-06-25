@@ -4,7 +4,7 @@ import ButtonDashboard from "./ui/ButtonDashboard";
 
 function Features() {
   return (
-    <main className="flex flex-row gap-2 w-full max-w-[99%] h-140 bg-[#3f4e67] rounded-3xl mr-auto ml-auto p-1">
+    <main className="flex flex-row gap-2 w-full max-w-[90%] h-140 bg-(--main-color) rounded-3xl mr-auto ml-auto p-1">
       {/* mudar conforme o link selecionado*/}
       <nav className="flex flex-col bg-(--background-color) gap-2 w-44 h-full mt-auto  p-2 rounded-bl-3xl rounded-tl-3xl">
         <ButtonDashboard
