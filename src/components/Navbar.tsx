@@ -16,22 +16,22 @@ function Navbar() {
 
       <ul className="flex flex-row gap-7 text-gray-500 text-lg font-semibold">
         <li>
-          <a href="" className=" hover:text-[var(--text-color)] duration-300">
+          <a href="" className=" hover:text-(--text-color) duration-300">
             funcionalidades
           </a>
         </li>
         <li>
-          <a href="" className=" hover:text-[var(--text-color)] duration-300">
+          <a href="" className=" hover:text-(--text-color) duration-300">
             preços
           </a>
         </li>
         <li>
-          <a href="" className=" hover:text-[var(--text-color)] duration-300">
+          <a href="" className=" hover:text-(--text-color) duration-300">
             blog
           </a>
         </li>
         <li>
-          <a href="" className=" hover:text-[var(--text-color)] duration-300">
+          <a href="" className=" hover:text-(--text-color) duration-300">
             login
           </a>
         </li>

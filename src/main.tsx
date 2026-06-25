@@ -1,10 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
-
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+// Ajusta o problema com os routers do Features
+import "./index.css";
+import App from "./App.tsx";
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <BrowserRouter>
     <App />
-  </StrictMode>,
-)
+  </BrowserRouter>,
+);

@@ -15,11 +15,11 @@ function Hero() {
       </p>
 
       <h1 className="text-white text-6xl font-bold">Pare de procastinar.</h1>
-      <p className="text-[var(--primary-color)] text-5xl font-semibold ]">
+      <p className="text-(--primary-color) text-5xl font-semibold ]">
         Comece a entregar.
       </p>
 
-      <p className="text-[var(--text-color)] text-lg font-medium max-w-2xl mt-4 mb-4 w-120">
+      <p className="text-(--text-color) text-lg font-medium w-full max-w-2xl mt-4 mb-4">
         FocusFlow combina timer Pomodoro, gestão de tarefas e analytics de
         produtividade em um só lugar. Para devs que querem fazer mais em menos
         tempo.
