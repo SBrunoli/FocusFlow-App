@@ -1,10 +1,18 @@
 /* eslint-disable */
 
+import { useState } from "react";
 import ButtonDashboard from "./ui/ButtonDashboard";
+import Pomodoro from "./features/Pomorodo";
 
 function Features() {
+  const [selectedTab, setSelectedTab] = useState<"pomodoro">("pomodoro");
+
+  const tabs = {
+    pomodoro: <Pomodoro />,
+  };
+
   return (
-    <main className="flex flex-row gap-2 w-full max-w-[90%] h-140 bg-(--main-color) rounded-3xl mr-auto ml-auto p-1">
+    <main className="flex flex-row gap-2 w-full max-w-[90%] h-140 bg-(--main-color) rounded-4xl mr-auto ml-auto p-4">
       {/* mudar conforme o link selecionado*/}
       <nav className="flex flex-col bg-(--background-color) gap-2 w-44 h-full mt-auto  p-2 rounded-bl-3xl rounded-tl-3xl">
         <ButtonDashboard
@@ -26,7 +34,9 @@ function Features() {
           children="Ajustes"
         />
       </nav>
-      <div className="flex-1 h-full bg-(--background-color) rounded-tr-3xl rounded-br-3xl p-4"></div>
+      <div className="flex-1 h-full bg-(--background-color) rounded-tr-3xl rounded-br-3xl p-4">
+        {tabs[selectedTab]}
+      </div>
     </main>
   );
 }
