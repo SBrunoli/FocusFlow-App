@@ -3,9 +3,10 @@
 
 :root {
   --primary-color: #a855f7;
+  --primary-opacity: #a955f74f;
   --secondary-color: #facc15;
-  --background-color: #151d29;
-  --main-color: #263243;
+  --background-color: #0f1216;
+  --main-color: #2423233c;
   --text-color: #f8fafc;
 }
 

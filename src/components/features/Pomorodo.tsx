@@ -105,19 +105,19 @@ function Pomodoro() {
       <div className="flex flex-row gap-6 text-xl">
         <button
           onClick={() => setRodando(true)}
-          className="text-slate-50 bg-[#3f4e67] hover:bg-[#a855f7] duration-300 p-2 px-6 cursor-pointer rounded-2xl"
+          className="text-slate-50 bg-(--main-color) hover:bg-(--primary-opacity) duration-300 p-2 px-6 cursor-pointer rounded-2xl"
         >
           Iniciar
         </button>
         <button
           onClick={() => setRodando(false)}
-          className="text-slate-50 bg-[#3f4e67] hover:bg-[#a855f7] duration-300 p-2 px-6 cursor-pointer rounded-2xl"
+          className="text-slate-50 bg-(--main-color) hover:bg-(--primary-opacity) duration-300 p-2 px-6 cursor-pointer rounded-2xl"
         >
           Pausar
         </button>
         <button
           onClick={reiniciar}
-          className="text-slate-50 bg-[#3f4e67] hover:bg-[#a855f7] duration-300 p-2 px-6 cursor-pointer rounded-2xl"
+          className="text-slate-50 bg-(--main-color) hover:bg-(--primary-opacity) duration-300 p-2 px-6 cursor-pointer rounded-2xl"
         >
           Reiniciar
         </button>

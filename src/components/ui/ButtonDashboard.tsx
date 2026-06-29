@@ -2,10 +2,12 @@ function ButtonDashboard(props: {
   icon?: React.ReactNode;
   children: React.ReactNode;
   className?: string;
+  onClick?: () => void;
 }) {
   return (
     <button
-      className={`text-slate-50 w-full bg-[#3f4e67] hover:bg-[#a855f7] duration-300 p-2 inline-40 text-left cursor-pointer ${props.className || ""}`}
+      onClick={props.onClick}
+      className={`text-(--text-color) w-full bg-(--main-color) hover:bg-(--primary-opacity) duration-300 p-2 inline-40 text-left cursor-pointer rounded-xl ${props.className || ""}`}
     >
       {props.icon}
       {props.children}
