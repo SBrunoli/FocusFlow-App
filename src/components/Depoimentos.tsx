@@ -43,7 +43,7 @@ const avaliacoes = [
 
 function Depoimentos() {
   return (
-    <section className="w-full flex flex-col items-center mt-20 px-4 md:px-0">
+    <section className="w-full h-fit flex flex-col items-center mt-20 px-4 md:px-0">
       <div className="w-full max-w-6xl flex flex-col justify-center items-center text-center">
         <p className="text-(--primary-color) font-medium text-lg">
           Depoimentos

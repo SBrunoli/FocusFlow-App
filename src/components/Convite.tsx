@@ -2,13 +2,13 @@ import ButtonDashboard from "./ui/ButtonDashboard";
 
 function Convite() {
   return (
-    <section className="mt-20">
+    <section className="mt-20 h-90 p-2">
       {/* apresentação */}
       <div className="w-full h-fit flex flex-col justify-center items-center">
         <h2 className="text-(--text-color) text-3xl font-medium">
           pronto para focar de verdade?
         </h2>
-        <p className="text-(--p-color) mt-2">
+        <p className="text-(--p-color) mt-2 text-center">
           Crie sua conta grátis e comece sua primeira sessão em 30 segundos.
         </p>
       </div>

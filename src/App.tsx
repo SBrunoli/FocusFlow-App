@@ -8,6 +8,7 @@ import Funcionalidades from "./components/Funcionalidades";
 import Precos from "./components/Precos";
 import Depoimentos from "./components/Depoimentos";
 import Convite from "./components/Convite";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Precos />
       <Depoimentos />
       <Convite />
+      <Footer />
     </div>
   );
 }

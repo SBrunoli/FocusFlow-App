@@ -36,7 +36,7 @@ function Funcionalidades() {
         <p className="text-(--primary-color) font-medium text-lg">
           Funcionalidades
         </p>
-        <h2 className="text-(--text-color) text-3xl font-medium mt-4">
+        <h2 className="text-(--text-color) text-3xl font-medium mt-4 text-center">
           Tudo o que você precisa para focar
         </h2>
         <p className="text-(--p-color) mt-4 text-lg">
