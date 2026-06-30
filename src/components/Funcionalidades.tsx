@@ -30,7 +30,7 @@ const funcionalidades = [
 
 function Funcionalidades() {
   return (
-    <div>
+    <section>
       {/* titles */}
       <div className="w-full flex flex-col justify-center items-center mt-20">
         <p className="text-(--primary-color) font-medium text-lg">
@@ -58,7 +58,7 @@ function Funcionalidades() {
           </CardFuncionalidades>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

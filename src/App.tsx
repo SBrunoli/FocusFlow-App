@@ -7,6 +7,7 @@ import Features from "./components/Features";
 import Funcionalidades from "./components/Funcionalidades";
 import Precos from "./components/Precos";
 import Depoimentos from "./components/Depoimentos";
+import Convite from "./components/Convite";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Funcionalidades />
       <Precos />
       <Depoimentos />
+      <Convite />
     </div>
   );
 }
