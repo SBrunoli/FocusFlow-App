@@ -80,7 +80,7 @@ function Tarefas() {
           value={novaTarefa}
           onChange={(event) => setNovaTarefa(event.target.value)}
           placeholder="Adicione uma nova tarefa..."
-          className="bg-(--background-color) text-(--text-color) placeholder:text-gray-500 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-xl p-2 w-[50%]"
+          className="bg-(--background-color) text-(--text-color) placeholder:text-(--p-color) border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-xl p-2 w-[50%]"
         />
         <ButtonDashboard
           onClick={adicionarTarefa}
@@ -151,7 +151,7 @@ function Tarefas() {
                     if (event.key === "Enter") salvarEdicao(tarefa.id);
                     if (event.key === "Escape") cancelarEdicao();
                   }}
-                  className="bg-(--background-color) text-(--text-color) placeholder:text-gray-500 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-xl p-2 flex-1"
+                  className="bg-(--background-color) text-(--text-color) placeholder:text-(--p-color) border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-xl p-2 flex-1"
                 />
               ) : (
                 <span

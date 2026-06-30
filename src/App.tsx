@@ -4,6 +4,7 @@ import "./index.css";
 import Hero from "./components/hero";
 import Navbar from "./components/Navbar";
 import Features from "./components/Features";
+import Funcionalidades from "./Funcionalidades";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
+      <Funcionalidades />
     </div>
   );
 }

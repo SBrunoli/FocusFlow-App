@@ -14,7 +14,7 @@ function Navbar() {
         </li>
       </ul>
 
-      <ul className="flex flex-row gap-7 text-gray-500 text-lg font-semibold">
+      <ul className="flex flex-row gap-7 text-(--p-color) text-lg font-semibold">
         <li>
           <a href="" className=" hover:text-(--text-color) duration-300">
             funcionalidades
