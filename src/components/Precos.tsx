@@ -1,4 +1,4 @@
-import CardPrecos from "./components/ui/CardPrecos";
+import CardPrecos from "./ui/CardPrecos";
 
 const planosPreco = [
   {

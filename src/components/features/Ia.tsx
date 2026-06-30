@@ -1,3 +1,27 @@
+const sugestoes = [
+  {
+    icon: "fa-solid fa-chart-simple",
+    title: "Analisar meu dia",
+    description: "Veja um resumo dos seus pomodoros e tarefas de hoje",
+  },
+  {
+    icon: "fa-solid fa-list-check",
+    title: "Priorizar tarefas",
+    description: "A IA organiza sua lista pelo impacto e tempo disponível",
+  },
+  {
+    icon: "fa-solid fa-clock",
+    title: "Sugerir horários",
+    description:
+      "Descubra quando você é mais produtivo para focar nas tarefas mais importantes",
+  },
+  {
+    icon: "fa-solid fa-fire",
+    title: "Modo deep focus",
+    description: "Monte um bloco de 2h sem distrações com plano guiado",
+  },
+];
+
 function Ia() {
   return (
     <div className="w-full h-full">
@@ -21,58 +45,18 @@ function Ia() {
 
       {/* Sugestões */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-4">
-        {/* conteiner de sugestoes */}
-        <div className="w-full flex flex-col justify-center items-center mt-4 bg-(--main-color) rounded-xl p-4 gap-2 text-center cursor-pointer border border-transparent hover:border-(--primary-color) duration-300">
-          {/* icone sugestao */}
-          <span className="text-(--text-color) text-lg font-medium ">
-            <i className="fa-solid fa-chart-simple"></i>
-          </span>
-          {/* Titulo Sugestao */}
-          <h2 className="text-(--text-color) text-md">Analisar meu dia</h2>
-          <p className="text-(--p-color)  text-sm w-60">
-            Veja um resumo dos seus pomodoros e tarefas de hoje
-          </p>
-        </div>
-
-        {/* conteiner de sugestoes */}
-        <div className="w-full flex flex-col justify-center items-center mt-4 bg-(--main-color) rounded-xl p-4 gap-2 text-center cursor-pointer border border-transparent hover:border-(--primary-color) duration-300">
-          {/* icone sugestao */}
-          <span className="text-(--text-color) text-lg font-medium ">
-            <i className="fa-solid fa-list-check"></i>
-          </span>
-          {/* Titulo Sugestao */}
-          <h2 className="text-(--text-color) text-md">Priorizar tarefas</h2>
-          <p className="text-(--p-color)  text-sm w-60">
-            A IA organiza sua lista pelo impacto e tempo disponível
-          </p>
-        </div>
-
-        {/* conteiner de sugestoes */}
-        <div className="w-full flex flex-col justify-center items-center mt-4 bg-(--main-color) rounded-xl p-4 gap-2 text-center cursor-pointer border border-transparent hover:border-(--primary-color) duration-300">
-          {/* icone sugestao */}
-          <span className="text-(--text-color) text-lg font-medium ">
-            <i className="fa-solid fa-clock"></i>
-          </span>
-          {/* Titulo Sugestao */}
-          <h2 className="text-(--text-color) text-md">Sugerir horários</h2>
-          <p className="text-(--p-color)  text-sm w-60">
-            Descubra quando você é mais produtivo para focar nas tarefas mais
-            importantes
-          </p>
-        </div>
-
-        {/* conteiner de sugestoes */}
-        <div className="w-full flex flex-col justify-center items-center mt-4 bg-(--main-color) rounded-xl p-4 gap-2 text-center cursor-pointer border border-transparent hover:border-(--primary-color) duration-300">
-          {/* icone sugestao */}
-          <span className="text-(--text-color) text-lg font-medium ">
-            <i className="fa-solid fa-fire"></i>
-          </span>
-          {/* Titulo Sugestao */}
-          <h2 className="text-(--text-color) text-md">Modo deep focus</h2>
-          <p className="text-(--p-color)  text-sm w-60">
-            Monte um bloco de 2h sem distrações com plano guiado
-          </p>
-        </div>
+        {sugestoes.map((item) => (
+          <div
+            key={item.title}
+            className="w-full flex flex-col justify-center items-center mt-4 bg-(--main-color) rounded-xl p-4 gap-2 text-center cursor-pointer border border-transparent hover:border-(--primary-color) duration-300"
+          >
+            <span className="text-(--text-color) text-lg font-medium">
+              <i className={item.icon}></i>
+            </span>
+            <h2 className="text-(--text-color) text-md">{item.title}</h2>
+            <p className="text-(--p-color) text-sm w-60">{item.description}</p>
+          </div>
+        ))}
       </div>
 
       {/* Bloco de pesquisa IA */}

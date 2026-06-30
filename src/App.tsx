@@ -4,8 +4,9 @@ import "./index.css";
 import Hero from "./components/hero";
 import Navbar from "./components/Navbar";
 import Features from "./components/Features";
-import Funcionalidades from "./Funcionalidades";
-import Precos from "./Precos";
+import Funcionalidades from "./components/Funcionalidades";
+import Precos from "./components/Precos";
+import Depoimentos from "./components/Depoimentos";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <Funcionalidades />
       <Precos />
+      <Depoimentos />
     </div>
   );
 }

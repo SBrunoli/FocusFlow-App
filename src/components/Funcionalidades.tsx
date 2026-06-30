@@ -1,4 +1,4 @@
-import CardFuncionalidades from "./components/ui/CardFuncionalidades";
+import CardFuncionalidades from "./ui/CardFuncionalidades";
 
 // Refatoraçãosaaaa
 const funcionalidades = [
