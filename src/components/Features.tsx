@@ -2,6 +2,7 @@ import { useState, type JSX } from "react";
 import ButtonDashboard from "./ui/ButtonDashboard";
 import Pomodoro from "./features/Pomorodo";
 import Tarefas from "./features/Tarefas";
+import Ia from "./features/Ia";
 
 function Features() {
   const [selectedTab, setSelectedTab] = useState<
@@ -11,7 +12,7 @@ function Features() {
   const tabs: Record<"pomodoro" | "tarefas" | "ia" | "ajustes", JSX.Element> = {
     pomodoro: <Pomodoro />,
     tarefas: <Tarefas />,
-    ia: <div className="text-white">Em breve</div>,
+    ia: <Ia />,
     ajustes: <div className="text-white">Em breve</div>,
   };
 
@@ -20,9 +21,9 @@ function Features() {
   }
 
   return (
-    <main className="flex flex-row gap-2 w-full max-w-[90%] h-140 bg-(--main-color) rounded-4xl mr-auto ml-auto p-4">
+    <main className="flex flex-col xl:flex-row gap-2 w-full max-w-[90%] min-h-130 bg-(--main-color) rounded-4xl mx-auto p-4">
       {/* Botões de navegação */}
-      <nav className="flex flex-col bg-(--background-color) gap-2 w-44 h-full mt-auto  p-2 rounded-bl-3xl rounded-tl-3xl">
+      <nav className="flex flex-row xl:flex-col bg-(--background-color) gap-2 w-full xl:w-44 h-auto p-2 rounded-3xl xl:rounded-bl-3xl xl:rounded-tl-3xl">
         <ButtonDashboard
           icon={<i className="fa-solid fa-alarm-clock mr-2"></i>}
           className="rounded-tl-2xl"
@@ -47,7 +48,7 @@ function Features() {
         />
       </nav>
       {/* tabela selecionada */}
-      <div className="flex-1 h-full bg-(--background-color) rounded-tr-3xl rounded-br-3xl p-4">
+      <div className="flex-1 bg-(--background-color) rounded-3xl xl:rounded-tr-3xl xl:rounded-br-3xl p-4 min-h-105">
         {tabs[selectedTab]}
       </div>
     </main>
