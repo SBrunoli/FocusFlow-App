@@ -3,6 +3,7 @@ import ButtonDashboard from "./ui/ButtonDashboard";
 import Pomodoro from "./features/Pomorodo";
 import Tarefas from "./features/Tarefas";
 import Ia from "./features/Ia";
+import Ajustes from "./features/Ajustes";
 
 function Features() {
   const [selectedTab, setSelectedTab] = useState<
@@ -13,7 +14,7 @@ function Features() {
     pomodoro: <Pomodoro />,
     tarefas: <Tarefas />,
     ia: <Ia />,
-    ajustes: <div className="text-white">Em breve</div>,
+    ajustes: <Ajustes />,
   };
 
   function handleTabClick(tab: "pomodoro" | "tarefas" | "ia" | "ajustes") {
