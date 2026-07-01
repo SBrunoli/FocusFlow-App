@@ -1,6 +1,8 @@
 <div align="center">
+
 <h1>FocusFlow</h1>
 <p>App de produtividade com timer Pomodoro, tarefas e assistente de IA — feito com React + TypeScript</p>
+
 <br/>
 
 [![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev)
@@ -10,42 +12,39 @@
 
 <br/>
 
-<a href="https://seu-usuario.github.io/focusflow">
-  <img src="https://img.shields.io/badge/▶ Ver Demo ao Vivo-a855f7?style=for-the-badge" alt="Demo ao vivo"/>
+<a href="https://sbrunoli.github.io/FocusFlow-App/">
+  <img src="https://img.shields.io/badge/ver%20demo%20ao%20vivo-%E2%86%92-a855f7?style=for-the-badge&labelColor=1a1a2e" alt="Demo ao vivo"/>
 </a>
 
-<br/>
 </div>
 
 ---
 
-## 📸 Preview
+## Preview
 
 <div align="center">
   <img width="49%" alt="Pomodoro" src="https://github.com/user-attachments/assets/58611026-e7f6-4073-b60a-72825ccf68e3" />
   <img width="49%" alt="Tarefas" src="https://github.com/user-attachments/assets/cb392544-5fdb-471c-9860-63a2b9dcec25" />
 </div>
 
-> Interface escura e minimalista pensada para devs que querem focar de verdade.
+<br/>
+
+## Funcionalidades
+
+| &nbsp; | Funcionalidade | Descrição |
+|:---:|---|---|
+| `⏱` | **Timer Pomodoro** | Sessões de foco, pausa curta e longa com progresso visual |
+| `☑` | **Gestão de tarefas** | Crie, filtre e conclua tarefas com prioridade |
+| `◈` | **Assistente IA** | Tela de sugestões de produtividade |
+| `◎` | **Ajustes** | Configure timers, sons e notificações com toggles |
+| `◐` | **Dark mode** | Interface escura e confortável para longas sessões |
 
 <br/>
 
-## ⚡ Funcionalidades
-
-| | Funcionalidade | Descrição |
-|---|---|---|
-| 🍅 | **Timer Pomodoro** | Sessões de foco, pausa curta e longa com progresso visual |
-| ✅ | **Gestão de tarefas** | Crie, filtre e conclua tarefas com prioridade |
-| 🤖 | **Assistente IA** | Tela de sugestões de produtividade |
-| ⚙️ | **Ajustes** | Configure timers, sons e notificações com toggles |
-| 🌙 | **Dark mode** | Interface escura e confortável para longas sessões |
-
-<br/>
-
-## 🛠️ Tecnologias
+## Tecnologias
 
 | Tecnologia | Versão | Uso |
-|---|---|---|
+|---|:---:|---|
 | ![React](https://img.shields.io/badge/-React-20232A?logo=react&logoColor=61DAFB&style=flat-square) | 18 | Interface e componentes |
 | ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?logo=typescript&logoColor=white&style=flat-square) | 5 | Tipagem estática |
 | ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white&style=flat-square) | 5 | Build e dev server |
@@ -54,25 +53,23 @@
 
 <br/>
 
-## 🚀 Rodando o projeto
+## Rodando o projeto
 
 ```bash
-# Clone
-git clone https://github.com/seu-usuario/focusflow.git
-cd focusflow
-
-# Instale e rode
+git clone https://github.com/sbrunoli/FocusFlow-App.git
+cd FocusFlow-App
 npm install
 npm run dev
 ```
 
-Acesse **http://localhost:5173**
+> Acesse `http://localhost:5173`
 
 <br/>
+
+---
+
 <div align="center">
-
-Feito com 🍅 durante os estudos de React
-
-⭐ Se curtiu o projeto, deixa uma estrela!
-
+<sub>feito com foco e TypeScript por <a href="https://github.com/sbrunoli">@sbrunoli</a></sub>
+<br/><br/>
+<sub>⭐ se curtiu o projeto, deixa uma estrela!</sub>
 </div>
