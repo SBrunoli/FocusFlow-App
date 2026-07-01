@@ -12,7 +12,7 @@
 
 <br/>
 
-<a href="https://sbrunoli.github.io/FocusFlow-App/">
+<a href="https://sbrunoli.github.io/FocusFlow-App/" target="blank_">
   <img src="https://img.shields.io/badge/ver%20demo%20ao%20vivo-%E2%86%92-a855f7?style=for-the-badge&labelColor=1a1a2e" alt="Demo ao vivo"/>
 </a>
 
